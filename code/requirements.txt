@@ -1,0 +1,12 @@
+# Needed to run the app
+ultralytics>=8.3.0        # the YOLOv11 pose model and the ByteTrack tracker (also installs PyTorch)
+lap>=0.5.12               # needed by the tracker
+opencv-python>=4.8        # reading and drawing video frames
+pillow>=10.0              # showing frames in the app window
+numpy>=1.24               # maths
+matplotlib>=3.7           # only used to save the Kalman plot picture
+
+# Optional: listening to the audio (also needs FFmpeg installed on the computer)
+openai-whisper
+
+# Optional: Llama 3 needs the Ollama app (https://ollama.com) - there is nothing to install with pip.
